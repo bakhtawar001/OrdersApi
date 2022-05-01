@@ -1,0 +1,334 @@
+{
+  "Type": "product",
+  "CurrencyCode": "USD",
+   "Decorations": [
+    {
+      "ProofType": "Blank",
+      "ProofEmail": null,
+      "Artwork": [],
+      "Status": "Open",
+      "Details": [
+        {
+          "Instructions": "",
+          "LogoColors": [],
+          "LogoSize": {
+            "Type": "IMSZ",
+            "Value": "",
+            "ValueType": "NONE",
+            "IsVisible": false
+          },
+          "VariantLinkType": "All",
+          "Variants": []
+        }
+      ],
+      "IsEditable": true,
+      "ServiceCharges": [],
+      "ShippingDetail": {
+        "Carrier": "",
+        "Account": "",
+        "ShippingAccountVisible": false,
+        "InHandsDate": null,
+        "ShipDate": null,
+        "To": {
+          "Address": {
+            "Name": "",
+            "Line1": "",
+            "IsPrimary": false,
+            "Phone": {
+              "Type": "Mobile",
+              "Country": "US",
+              "PhoneCode": "1",
+              "Number": "",
+              "Extension": "",
+              "IsPrimary": false
+            }
+          },
+          "Company": {
+            "Name": "",
+            "Phones": [
+              {
+                "Type": "Office",
+                "Country": "US",
+                "PhoneCode": "1",
+                "Number": "",
+                "Extension": "",
+                "IsPrimary": true
+              }
+            ],
+            "Emails": [
+              {
+                "Type": "Work",
+                "Address": "",
+                "IsPrimary": true
+              }
+            ],
+            "EmailDomains": [
+              null
+            ],
+            "Addresses": [
+              {
+                "Name": "",
+                "Line1": "",
+                "IsPrimary": true,
+                "Phone": {
+                  "Type": "Mobile",
+                  "Country": "US",
+                  "PhoneCode": "1",
+                  "Number": "",
+                  "Extension": "",
+                  "IsPrimary": false
+                }
+              }
+            ],
+            "Websites": [
+              {
+                "Type": "Corporate",
+                "Url": "",
+                "IsPrimary": true
+              }
+            ],
+            "Tags": [],
+            "Links": [],
+            "BillingContact": null,
+            "ShippingContact": null,
+            "AcknowledgementContact": null,
+            "Currency": "USD",
+            "ShippingAccounts": [
+              {
+                "Type": "",
+                "Number": ""
+              }
+            ],
+            "CreditTerms": [],
+            "PaymentMethods": [],
+            "CreditLimit": 0,
+            "DefaultDiscount": 0,
+            "IsCustomer": true,
+            "IsCompany": true,
+            "IsSupplier": false,
+            "IsDecorator": false,
+            "IsProspect": false,
+            "IsTaxExempt": false,
+            "CanEditVisibility": true,
+            "TaxCertificates": [],
+            "TaxCode": {
+              "Name": "",
+              "Components": [
+                {}
+              ],
+              "IsDefault": false
+            }
+          }
+        },
+        "From": {
+          "Address": {
+            "Name": "",
+            "Line1": "",
+            "IsPrimary": false,
+            "Phone": {
+              "Type": "Mobile",
+              "Country": "US",
+              "PhoneCode": "1",
+              "Number": "",
+              "Extension": "",
+              "IsPrimary": false
+            }
+          },
+          "Company": {
+            "Name": "",
+            "Phones": [
+              {
+                "Type": "Office",
+                "Country": "US",
+                "PhoneCode": "1",
+                "Number": "",
+                "Extension": "",
+                "IsPrimary": true
+              }
+            ],
+            "Emails": [
+              {
+                "Type": "Work",
+                "Address": "",
+                "IsPrimary": true
+              }
+            ],
+            "EmailDomains": [
+              null
+            ],
+            "Addresses": [
+              {
+                "Name": "",
+                "Line1": "",
+                "IsPrimary": true,
+                "Phone": {
+                  "Type": "Mobile",
+                  "Country": "US",
+                  "PhoneCode": "1",
+                  "Number": "",
+                  "Extension": "",
+                  "IsPrimary": false
+                }
+              }
+            ],
+            "Websites": [
+              {
+                "Type": "Corporate",
+                "Url": "",
+                "IsPrimary": true
+              }
+            ],
+            "Tags": [],
+            "Links": [],
+            "BillingContact": null,
+            "ShippingContact": null,
+            "AcknowledgementContact": null,
+            "Currency": "USD",
+            "ShippingAccounts": [
+              {
+                "Type": "",
+                "Number": ""
+              }
+            ],
+            "CreditTerms": [],
+            "PaymentMethods": [],
+            "CreditLimit": 0,
+            "DefaultDiscount": 0,
+            "IsCustomer": true,
+            "IsCompany": true,
+            "IsSupplier": false,
+            "IsDecorator": false,
+            "IsProspect": false,
+            "IsTaxExempt": false,
+            "CanEditVisibility": true,
+            "TaxCertificates": [],
+            "TaxCode": {
+              "Name": "",
+              "Components": [
+                {}
+              ],
+              "IsDefault": false
+            }
+          }
+        },
+        "_datepicker": {
+          "InHandsDate": null,
+          "ShipDate": null
+        }
+      },
+      "Decorator": {
+        "Id": 507918952,
+        "Name": "Auto Supplier ASIQA I",
+        "Address": {
+          "Id": 504536839,
+          "Name": "Auto Supplier ASIQA I",
+          "Line1": "0001 Supplier ASIQA I",
+          "City": "Feasterville-Trevose",
+          "County": "",
+          "State": "PA",
+          "PostalCode": "19053",
+          "Country": "United States",
+          "CountryType": "US",
+          "IsPrimary": true,
+          "Phone": {
+            "PhoneCode": "1",
+            "Country": "CA",
+            "Number": "5555555"
+          }
+        },
+        "Email": "bnazir@asicentral.com",
+        "IsCompany": true,
+        "IsPerson": false,
+        "IsUser": false,
+        "Links": []
+      },
+      "IsLocked": false,
+      "Totals": {
+        "Amount": 0,
+        "Cost": 0,
+        "Margin": 0
+      },
+      "CurrencyCode": "USD"
+    }
+  ],
+  "Instructions": [],
+  "TaxRates": [],
+  "Variants": [
+    {
+      "CurrencyCode": "USD",
+      "Quantity": 1,
+      "Price": 4.040404040404041,
+      "Cost": 4,
+      "Margin": "1.00",
+      "ConvertedPrice": 0,
+      "ConvertedCost": 0,
+      "ConvertedMargin": 0,
+      "Totals": {
+        "TaxableAmount": 4.040404040404041,
+        "Amount": 4.040404040404041,
+        "Cost": 4,
+        "Margin": 0.040404040404040664
+      },
+      "ProductAttributes": [],
+      "IsTaxable": true,
+      "IsVisible": true,
+      "CorrelationId": "8a4ac24b-b2da-4ca8-a9b2-9013a9892cc9",
+      "Sequence": 0,
+      "showConfigurations": false
+    }
+  ],
+  "Categories": [
+    {
+      "Code": "K03710003   ",
+      "Name": "KEYS",
+      "Description": null,
+      "Sequence": 0
+    }
+  ],
+  "Totals": {
+    "QuantityOrdered": 0,
+    "Units": 1,
+    "TaxableAmount": 4.0,
+    "Amount": 4.0,
+    "Cost": 4,
+    "Margin": 0.04,
+    "SalesTax": 0,
+    "TaxRate": 0
+  },
+  "ImageUrl": "",
+  "ProductId": 0,
+  "Status": "Open",
+  "IsEditable": true,
+  "ServiceCharges": [],
+  "ShippingDetails": [],
+  "Supplier": {
+    "Name": "Auto Supplier ASIQA I",
+    "Links": [],
+    "IsCompany": true,
+    "Id": 507918952,
+    "Address": {
+      "Id": 504482830,
+      "Name": "Auto Supplier ASIQA I",
+      "Line1": "0001 Supplier ASIQA I",
+      "City": "Feasterville-Trevose",
+      "State": "PA",
+      "PostalCode": "19053",
+      "Country": "United States",
+      "CountryType": "US",
+      "IsPrimary": true,
+      "Phone": {
+        "PhoneCode": "1",
+        "Country": "CA",
+        "Number": "5555555"
+      }
+    },
+    "Email": "bnazir@asicentral.com",
+    "IsPerson": false,
+    "IsUser": false
+  },
+  "IsLocked": false,
+  "_totalTaxRate": 0,
+  "Number": "12345",
+  "Name": "Keys",
+  "Description": "Keys"
+}

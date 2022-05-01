@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\bakhtawar.nazir\AppData\Local\Temp\testng-eclipse--1499790756\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 1 failed,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="Delete_CreatedOrder">Delete_CreatedOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="Delete_CreatedNotes">Delete_CreatedNotes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="GETAllNotes">GETAllNotes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="GETCreatedNotes_NotesID">GETCreatedNotes_NotesID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="GetAllCustomProduct_LineItem">GetAllCustomProduct_LineItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="GetAllPaymentsRecords">GetAllPaymentsRecords</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="GetAmountDue_FromOrder">GetAmountDue_FromOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="GetCreatedOrder_FromID">GetCreatedOrder_FromID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="GetCreatedOrder_FromNumber">GetCreatedOrder_FromNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="GetCustomProduct_LineItem">GetCustomProduct_LineItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="GetPaymentsRecordUnderOrder_PaymentID">GetPaymentsRecordUnderOrder_PaymentID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="Import_LineItem">Import_LineItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="Orders_Signin">Orders_Signin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="POSTNotes_Order">POSTNotes_Order</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="POST_Orders">POST_Orders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="PostCustomProduct_LineItem">PostCustomProduct_LineItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="PostCustomProduct_LineItem_FieldValidaion">PostCustomProduct_LineItem_FieldValidaion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="PostEmail_UnderOrder">PostEmail_UnderOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="PostPaymentsUnderOrder">PostPaymentsUnderOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="PostQuote_UnderOrder">PostQuote_UnderOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="PostReorder_UnderOrder">PostReorder_UnderOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="PostSalesOrders_UnderOrder">PostSalesOrders_UnderOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="PostTitle_LineItem">PostTitle_LineItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="UpdateNotes_Order">UpdateNotes_Order</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="UpdatePaymentsRecordUnderOrder">UpdatePaymentsRecordUnderOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="OrdersAPI.API.ExecutionFile" hash-for-method="UpdateTitle_LineItem">UpdateTitle_LineItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">OrdersAPI.API.ExecutionFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Delete_CreatedOrder">
+                  </a> <!-- Delete_CreatedOrder -->
+                  <span class="method-name">Delete_CreatedOrder</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [500]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at OrdersAPI.API.OrdersAPI.Delete_CreatedOrder(OrdersAPI.java:806)
+	at OrdersAPI.API.ExecutionFile.Delete_CreatedOrder(ExecutionFile.java:173)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:588)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">OrdersAPI.API.ExecutionFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Delete_CreatedNotes">
+                  </a> <!-- Delete_CreatedNotes -->
+                  <span class="method-name">Delete_CreatedNotes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GETAllNotes">
+                  </a> <!-- GETAllNotes -->
+                  <span class="method-name">GETAllNotes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GETCreatedNotes_NotesID">
+                  </a> <!-- GETCreatedNotes_NotesID -->
+                  <span class="method-name">GETCreatedNotes_NotesID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetAllCustomProduct_LineItem">
+                  </a> <!-- GetAllCustomProduct_LineItem -->
+                  <span class="method-name">GetAllCustomProduct_LineItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetAllPaymentsRecords">
+                  </a> <!-- GetAllPaymentsRecords -->
+                  <span class="method-name">GetAllPaymentsRecords</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetAmountDue_FromOrder">
+                  </a> <!-- GetAmountDue_FromOrder -->
+                  <span class="method-name">GetAmountDue_FromOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetCreatedOrder_FromID">
+                  </a> <!-- GetCreatedOrder_FromID -->
+                  <span class="method-name">GetCreatedOrder_FromID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetCreatedOrder_FromNumber">
+                  </a> <!-- GetCreatedOrder_FromNumber -->
+                  <span class="method-name">GetCreatedOrder_FromNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetCustomProduct_LineItem">
+                  </a> <!-- GetCustomProduct_LineItem -->
+                  <span class="method-name">GetCustomProduct_LineItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetPaymentsRecordUnderOrder_PaymentID">
+                  </a> <!-- GetPaymentsRecordUnderOrder_PaymentID -->
+                  <span class="method-name">GetPaymentsRecordUnderOrder_PaymentID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Import_LineItem">
+                  </a> <!-- Import_LineItem -->
+                  <span class="method-name">Import_LineItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Orders_Signin">
+                  </a> <!-- Orders_Signin -->
+                  <span class="method-name">Orders_Signin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="POSTNotes_Order">
+                  </a> <!-- POSTNotes_Order -->
+                  <span class="method-name">POSTNotes_Order</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="POST_Orders">
+                  </a> <!-- POST_Orders -->
+                  <span class="method-name">POST_Orders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostCustomProduct_LineItem">
+                  </a> <!-- PostCustomProduct_LineItem -->
+                  <span class="method-name">PostCustomProduct_LineItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostCustomProduct_LineItem_FieldValidaion">
+                  </a> <!-- PostCustomProduct_LineItem_FieldValidaion -->
+                  <span class="method-name">PostCustomProduct_LineItem_FieldValidaion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostEmail_UnderOrder">
+                  </a> <!-- PostEmail_UnderOrder -->
+                  <span class="method-name">PostEmail_UnderOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostPaymentsUnderOrder">
+                  </a> <!-- PostPaymentsUnderOrder -->
+                  <span class="method-name">PostPaymentsUnderOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostQuote_UnderOrder">
+                  </a> <!-- PostQuote_UnderOrder -->
+                  <span class="method-name">PostQuote_UnderOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostReorder_UnderOrder">
+                  </a> <!-- PostReorder_UnderOrder -->
+                  <span class="method-name">PostReorder_UnderOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostSalesOrders_UnderOrder">
+                  </a> <!-- PostSalesOrders_UnderOrder -->
+                  <span class="method-name">PostSalesOrders_UnderOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostTitle_LineItem">
+                  </a> <!-- PostTitle_LineItem -->
+                  <span class="method-name">PostTitle_LineItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateNotes_Order">
+                  </a> <!-- UpdateNotes_Order -->
+                  <span class="method-name">UpdateNotes_Order</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdatePaymentsRecordUnderOrder">
+                  </a> <!-- UpdatePaymentsRecordUnderOrder -->
+                  <span class="method-name">UpdatePaymentsRecordUnderOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateTitle_LineItem">
+                  </a> <!-- UpdateTitle_LineItem -->
+                  <span class="method-name">UpdateTitle_LineItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bakhtawar.nazir\AppData\Local\Temp\testng-eclipse--1499790756\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;OrdersAPI.API.ExecutionFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'PostEmail_UnderOrder')
+data.setCell(0, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(0, 3, 28731);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'PostReorder_UnderOrder')
+data.setCell(1, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(1, 3, 9359);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'POST_Orders')
+data.setCell(2, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(2, 3, 7696);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Import_LineItem')
+data.setCell(3, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(3, 3, 5724);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PostPaymentsUnderOrder')
+data.setCell(4, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(4, 3, 5595);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'PostSalesOrders_UnderOrder')
+data.setCell(5, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(5, 3, 5367);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Delete_CreatedNotes')
+data.setCell(6, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(6, 3, 5279);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'GetAmountDue_FromOrder')
+data.setCell(7, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(7, 3, 4466);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Orders_Signin')
+data.setCell(8, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(8, 3, 4424);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'UpdateTitle_LineItem')
+data.setCell(9, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(9, 3, 4235);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'GETAllNotes')
+data.setCell(10, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(10, 3, 4026);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'PostQuote_UnderOrder')
+data.setCell(11, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(11, 3, 3954);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'GetCreatedOrder_FromID')
+data.setCell(12, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(12, 3, 3794);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PostCustomProduct_LineItem')
+data.setCell(13, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(13, 3, 3709);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'PostTitle_LineItem')
+data.setCell(14, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(14, 3, 3419);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'GETCreatedNotes_NotesID')
+data.setCell(15, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(15, 3, 3293);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'GetCustomProduct_LineItem')
+data.setCell(16, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(16, 3, 3266);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'UpdatePaymentsRecordUnderOrder')
+data.setCell(17, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(17, 3, 3203);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'POSTNotes_Order')
+data.setCell(18, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(18, 3, 3185);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'UpdateNotes_Order')
+data.setCell(19, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(19, 3, 3161);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Delete_CreatedOrder')
+data.setCell(20, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(20, 3, 2698);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'GetPaymentsRecordUnderOrder_PaymentID')
+data.setCell(21, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(21, 3, 2366);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'GetCreatedOrder_FromNumber')
+data.setCell(22, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(22, 3, 2103);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'PostCustomProduct_LineItem_FieldValidaion')
+data.setCell(23, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(23, 3, 2015);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'GetAllPaymentsRecords')
+data.setCell(24, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(24, 3, 1755);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'GetAllCustomProduct_LineItem')
+data.setCell(25, 2, 'OrdersAPI.API.ExecutionFile')
+data.setCell(25, 3, 1724);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">OrdersAPI.API.ExecutionFile</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Startup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Orders_Signin</span>
+                <span class="method-start">189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Orders_Signin status=SUCCESS method=ExecutionFile.Orders_Signin()[pri:1, instance:O...)</span>
+                <span class="method-start">4619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">POST_Orders</span>
+                <span class="method-start">4993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=POST_Orders status=SUCCESS method=ExecutionFile.POST_Orders()[pri:3, instance:Order...)</span>
+                <span class="method-start">12707 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">GetCreatedOrder_FromID</span>
+                <span class="method-start">12837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetCreatedOrder_FromID status=SUCCESS method=ExecutionFile.GetCreatedOrder_FromID()...)</span>
+                <span class="method-start">16638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">GetCreatedOrder_FromNumber</span>
+                <span class="method-start">16703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetCreatedOrder_FromNumber status=SUCCESS method=ExecutionFile.GetCreatedOrder_From...)</span>
+                <span class="method-start">18813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">POSTNotes_Order</span>
+                <span class="method-start">18867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=POSTNotes_Order status=SUCCESS method=ExecutionFile.POSTNotes_Order()[pri:6, instan...)</span>
+                <span class="method-start">22054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">UpdateNotes_Order</span>
+                <span class="method-start">22129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=UpdateNotes_Order status=SUCCESS method=ExecutionFile.UpdateNotes_Order()[pri:7, in...)</span>
+                <span class="method-start">25293 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">GETCreatedNotes_NotesID</span>
+                <span class="method-start">25385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GETCreatedNotes_NotesID status=SUCCESS method=ExecutionFile.GETCreatedNotes_NotesID...)</span>
+                <span class="method-start">28684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">GETAllNotes</span>
+                <span class="method-start">28801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GETAllNotes status=SUCCESS method=ExecutionFile.GETAllNotes()[pri:9, instance:Order...)</span>
+                <span class="method-start">32838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Delete_CreatedNotes</span>
+                <span class="method-start">32911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Delete_CreatedNotes status=SUCCESS method=ExecutionFile.Delete_CreatedNotes()[pri:1...)</span>
+                <span class="method-start">38192 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PostCustomProduct_LineItem</span>
+                <span class="method-start">38271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=PostCustomProduct_LineItem status=SUCCESS method=ExecutionFile.PostCustomProduct_Li...)</span>
+                <span class="method-start">41989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PostCustomProduct_LineItem_FieldValidaion</span>
+                <span class="method-start">42036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=PostCustomProduct_LineItem_FieldValidaion status=SUCCESS method=ExecutionFile.PostC...)</span>
+                <span class="method-start">44054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">GetCustomProduct_LineItem</span>
+                <span class="method-start">44134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetCustomProduct_LineItem status=SUCCESS method=ExecutionFile.GetCustomProduct_Line...)</span>
+                <span class="method-start">47413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">GetAllCustomProduct_LineItem</span>
+                <span class="method-start">47545 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetAllCustomProduct_LineItem status=SUCCESS method=ExecutionFile.GetAllCustomProduc...)</span>
+                <span class="method-start">49271 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Import_LineItem</span>
+                <span class="method-start">49370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Import_LineItem status=SUCCESS method=ExecutionFile.Import_LineItem()[pri:15, insta...)</span>
+                <span class="method-start">55095 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">GetAmountDue_FromOrder</span>
+                <span class="method-start">55143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetAmountDue_FromOrder status=SUCCESS method=ExecutionFile.GetAmountDue_FromOrder()...)</span>
+                <span class="method-start">59611 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PostPaymentsUnderOrder</span>
+                <span class="method-start">59675 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=PostPaymentsUnderOrder status=SUCCESS method=ExecutionFile.PostPaymentsUnderOrder()...)</span>
+                <span class="method-start">65272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">GetPaymentsRecordUnderOrder_PaymentID</span>
+                <span class="method-start">65320 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetPaymentsRecordUnderOrder_PaymentID status=SUCCESS method=ExecutionFile.GetPaymen...)</span>
+                <span class="method-start">67695 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">UpdatePaymentsRecordUnderOrder</span>
+                <span class="method-start">67738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=UpdatePaymentsRecordUnderOrder status=SUCCESS method=ExecutionFile.UpdatePaymentsRe...)</span>
+                <span class="method-start">70943 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">GetAllPaymentsRecords</span>
+                <span class="method-start">71042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GetAllPaymentsRecords status=SUCCESS method=ExecutionFile.GetAllPaymentsRecords()[p...)</span>
+                <span class="method-start">72800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PostSalesOrders_UnderOrder</span>
+                <span class="method-start">72892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=PostSalesOrders_UnderOrder status=SUCCESS method=ExecutionFile.PostSalesOrders_Unde...)</span>
+                <span class="method-start">78261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PostReorder_UnderOrder</span>
+                <span class="method-start">78415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=PostReorder_UnderOrder status=SUCCESS method=ExecutionFile.PostReorder_UnderOrder()...)</span>
+                <span class="method-start">87777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PostTitle_LineItem</span>
+                <span class="method-start">87882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=PostTitle_LineItem status=SUCCESS method=ExecutionFile.PostTitle_LineItem()[pri:23,...)</span>
+                <span class="method-start">91302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PostQuote_UnderOrder</span>
+                <span class="method-start">91369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=PostQuote_UnderOrder status=SUCCESS method=ExecutionFile.PostQuote_UnderOrder()[pri...)</span>
+                <span class="method-start">95328 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">UpdateTitle_LineItem</span>
+                <span class="method-start">95388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=UpdateTitle_LineItem status=SUCCESS method=ExecutionFile.UpdateTitle_LineItem()[pri...)</span>
+                <span class="method-start">99624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PostEmail_UnderOrder</span>
+                <span class="method-start">99670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=PostEmail_UnderOrder status=SUCCESS method=ExecutionFile.PostEmail_UnderOrder()[pri...)</span>
+                <span class="method-start">128403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Delete_CreatedOrder</span>
+                <span class="method-start">128467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Delete_CreatedOrder status=FAILURE method=ExecutionFile.Delete_CreatedOrder()[pri:2...)</span>
+                <span class="method-start">131171 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

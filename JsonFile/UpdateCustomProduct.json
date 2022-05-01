@@ -1,0 +1,30 @@
+{
+    "Id": 502528500,
+"Type": "product",
+  "Name": "Keys",
+  "Description": "Keys",
+  "Relationships": [],
+  "TaxRates": [
+    {
+      "Id": 502450153,
+      "Type": "Other",
+      "Rate": 5,
+      "Name": ""
+    }
+  ],
+  
+  "Sequence": 0,
+  "CurrencyCode": "USD",
+  "CurrencySymbol": "$",
+  "ConversionRate": 1,
+  "Totals": {
+    "QuantityOrdered": 0,
+    "Units": 1,
+    "TaxableAmount": 4.0404,
+    "Amount": 4.0404,
+    "Cost": 6,
+    "Margin": -0.9596,
+    "SalesTax": 0.20202,
+    "TaxRate": 5
+  }
+}
